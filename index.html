@@ -1,15 +1,160 @@
-<!DOCTYPE html>
-<html lang="hr">
+<!DOCTYspanE html>
+    <html lang="hr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Basics</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta httspan-equiv="X-UA-Comspanatible" content="IE=edge">
+        <meta name="viewspanort" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
 
-<body>
-    <h1>Sta ima Marine?</h1>
-</body>
+    <body>
+        <!-- Obicno sadrzi naziv stranice logo i navigaciju -->
+        <header>
 
-</html>
+            <img src="./HNK_Hajduk_Split.svg.png" alt="Logo hajduk" width="100">
+            <ul>
+                <li>
+                    <a href="#">Prvi</a>
+                </li>
+                <li>
+                    <a href="#">Drugi</a>
+                </li>
+                <li>
+                    <a href="#">Treci</a>
+                </li>
+            </ul>
+
+            <!-- Bolje je koristit nav -->
+            <div>
+                <a href="#prvi">Prvi</a>
+                <a href="#drugi">Drugi</a>
+                <a href="#treci">Treci</a>
+                <a href="./primjer.html">Primjer</a>
+            </div>
+        </header>
+        <hr>
+        <!-- Glavni dio web stranice -->
+        <main>
+            <!-- tablica -->
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                    </tr>
+                </thead>
+
+            </table>
+            <!-- button -->
+            <form>
+                <div>
+                    <label for="ime">Ime:</label>
+                    <input type="text" name="ime" id="ime" placeholder="Unesi ime..." required>
+                </div>
+
+                <div>
+                    <label for="">Unesi broj</label>
+                    <input type="number" name="broj">
+                </div>
+
+                <br>
+                <input type="password" name="lozinka">
+
+                <input type="checkbox" name="ok">
+                <br>
+                <input type="search" name="pretraga">
+
+                <div>
+                    <label for="opis">Opis:</label>
+                    <textarea name="description" id="opis" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Klikni me</button>
+                <button type="reset">Klikni me</button>
+            </form>
+
+
+            <section id="prvi">
+                <h1>Naslov: Moja stranica</h1>
+                <p>
+                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat enim quis leo lacinia
+                        tristique.
+                    </span> Cras at
+                    <b>facilisis</b> nulla. Sed non scelerisque ante. <span>Quisque</span> posuere, erat sit amet
+                    volutpat
+                    viverra,
+                    libero turpis
+                    pretium mauris, sit amet tincidunt orci nibh eu tortor.
+                </p>
+            </section>
+            <section id="drugi">
+                <h2>Drugi section</h2>
+                <p>
+                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat enim quis leo lacinia
+                        tristique.
+                    </span> Cras at
+                    <b>facilisis</b> nulla. Sed non scelerisque ante. <span>Quisque</span> posuere, erat sit amet
+                    volutpat
+                    viverra,
+                    libero turpis
+                    pretium mauris, sit amet tincidunt orci nibh eu tortor.
+                </p>
+            </section>
+            <section id="treci">
+                <h2>Treci section</h2>
+                <p>
+                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat enim quis leo lacinia
+                        tristique.
+                    </span> Cras at
+                    <b>facilisis</b> nulla. Sed non scelerisque ante. <span>Quisque</span> posuere, erat sit amet
+                    volutpat
+                    viverra,
+                    libero turpis
+                    pretium mauris, sit amet tincidunt orci nibh eu tortor.
+                </p>
+            </section>
+        </main>
+        <hr>
+        <!-- Obicno sadrzi informacije o vlasniku, prava koristenja -->
+        <footer>
+            <span>Informacije:</span>
+            <address>
+                <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+                <a href="tel:+13115552368">(311) 555-2368</a>
+            </address>
+            <small>© Sva prava pridržana €</small>
+            <!-- Koristenje entiteta -->
+            <small>&copy; Sva prava pridržana &euro;</small>
+        </footer>
+
+        <!-- <h1>Brainlab</h1>
+        <hh2>Brainlab</hh2>
+        <h3>Brainlab</h3>
+        <h4>Brainlab</h4>
+        <h5>Brainlab</h5>
+        <h6>Brainlab</h6> -->
+
+
+
+        <!-- <strong>Hello World</strong>
+        <sspanan>Marin</sspanan>
+        <span>
+            <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat enim quis leo lacinia
+                tristique.
+            </span> Cras at
+            <b>facilisis</b> nulla. Sed non scelerisque ante. <span>Quisque</span> posuere, erat sit amet volutpat
+            viverra,
+            libero turpis
+            pretium mauris, sit amet tincidunt orci nibh eu tortor.
+            </p>
+            <p>Frano</p>
+
+            <hr>
+            <h1>
+                <a href="./primjer.html">Otvori hajduk</a>
+            </h1> -->
+
+
+    </body>
+
+    </html>
