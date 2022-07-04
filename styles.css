@@ -1,0 +1,48 @@
+/* Ovo su stilovi za <body> element i sve unutar njega */
+body {
+    color: red;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: pink;
+}
+
+span a {
+    font-size: 30px;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.underline {
+    text-decoration: underline
+}
+
+
+#drugi {
+    color: brown;
+}
+
+img {
+    width: 100px;
+}
+
+article img {
+    width: 50px;
+}
+
+i {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+}
+
+.yellow {
+    color: yellow;
+}
